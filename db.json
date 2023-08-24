@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "name": "Mor Ashkenazi",
+      "email": "mora@gmail.com",
+      "password": "12345678",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "name": "Israel Israeli",
+      "email": "israel@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "name": "Harry Potter",
+      "email": "harry@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "name": "Harry Potter 2",
+      "email": "harry2@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 4
+    },
+    {
+      "name": "Harry Potter 3",
+      "email": "harry3@gmail.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Microsoft Earphones",
+      "price": 120,
+      "category": "Headphones",
+      "description": "The Microsoft new earphones with high quality",
+      "image": "/images/Microsoft_Earphones.png",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Headphones",
+      "price": 200,
+      "category": "Headphones",
+      "description": "The Microsoft new headphones with high quality",
+      "image": "/images/Microsoft_Headphones.png"
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "active": true,
+      "products": [
+        {
+          "id": 2,
+          "name": "Microsoft Headphones",
+          "price": 200,
+          "category": "Headphones",
+          "description": "The Microsoft new headphones with high quality",
+          "image": "/images/Microsoft_Headphones.png",
+          "quantity": 2
+        },
+        {
+          "name": "Microsoft Earphones",
+          "price": 120,
+          "category": "Headphones",
+          "description": "The Microsoft new earphones with high quality",
+          "image": "/images/Microsoft_Earphones.png",
+          "id": 1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "products": [],
+      "active": true,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "products": [],
+      "active": true,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "products": [],
+      "active": true,
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "products": [],
+      "active": true,
+      "id": 5
+    }
+  ]
+}
